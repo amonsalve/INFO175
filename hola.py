@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+# modificacion
 import sys
 from PySide import QtGui
 
@@ -18,7 +18,7 @@ class Example(QtGui.QWidget):
         btn = QtGui.QPushButton('Hola Github', self)
         btn.setToolTip('This is a <b>QPushButton</b> widget')
         btn.resize(btn.sizeHint())
-        btn.move(50, 50)       
+        btn.move(60, 60)       
         
         self.setGeometry(300, 300, 250, 150)
         self.setWindowTitle('Prueba')    
